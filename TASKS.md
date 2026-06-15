@@ -13,7 +13,6 @@
 
 - [ ] **Decide Catalog Subscription epic questions** - create epic + relate to OGC-782 and Test Catalog v2.5; keep OGC-447, close OGC-442 as dup #jira @catalog @micro (from: AMR review workflow UX) (touched: 2026-06-12)
 - [ ] **Write breakpoint-source decision to Confluence** - research done (AMR R package, GPL-2.0, CLSI/EUCAST), page never written #design @micro (from: AMR review workflow UX) (touched: 2026-06-12)
-- [ ] **Build Sync 6/7 PR from clean worktree** - 7 overwritten FRSes staged in upload/, instructions in gallery-registration.md #design @micro @gallery (from: AMR review workflow UX) (touched: 2026-06-12)
 - [ ] **Reconcile stranded design/micro-m10-m12-prototypes branch** - ledger says OPEN but no live PR, prototypes not on main #design @micro @gallery (from: Design folder cleanup + OpenELIS gallery) (touched: 2026-06-12)
 - [ ] **Spec post-MVP test-rules features** - MVP fully in Jira (OGC-730 + children 731–735); §10.1/§10.2 buckets have no FRS or mockup yet; run /specify on simulator+validation tests, multi-step calc, algorithm-as-graph (canvas preview exists), templates+conflict-detection before any new Jira #design #jira @catalog → handoffs/2026-05-29-test-rules-post-mvp-spec.md (from: Calculated values & reflex tests) (touched: 2026-05-29)
 - [ ] **Open PR for design/results-validation-v4 branch** - branch pushed (v3 retirement + print queue), PR never opened, not in PENDING-PRS ledger #design @results @gallery (from: OpenELIS gallery) (touched: 2026-06-12)
@@ -45,6 +44,8 @@
 - [ ] **Finish style-guide v2 patterns inventory** - content refreshed and PR'd, audit coverage table still incomplete #design @design-system (from: Design folder cleanup) (touched: 2026-06-12)
 
 ## Done
+
+- [x] **Build Sync 6/7 PR from clean worktree** - already landed: all Sync 5/6 micro FRSes + prototypes are on main via PR #156 (design/micro-sync6-v2) and PR #157 (design/test-catalog-micro-workflow-attribute), both verified on main 2026-06-15. 5/7 staged FRSes byte-identical on main; m-00 + m-14 differ only because main carries newer drift-fix versions (larger files) that supersede the staged copies. Nothing left to push. #design @micro @gallery (from: AMR review workflow UX) (done: 2026-06-15)
 
 - [x] **Merge s06-v2-lhu-rewrite FRS PR** - already merged: PR #131 (head design/s06-v2-lhu-rewrite) merged to main 2026-05-26; v2.0 env+vector FRSes live, v1.0 archived #design @vector @gallery (from: Vector & env mockups) (done: 2026-06-15)
 
