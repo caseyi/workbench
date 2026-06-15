@@ -13,7 +13,6 @@
 
 - [ ] **Decide Catalog Subscription epic questions** - create epic + relate to OGC-782 and Test Catalog v2.5; keep OGC-447, close OGC-442 as dup #jira @catalog @micro (from: AMR review workflow UX) (touched: 2026-06-12)
 - [ ] **Write breakpoint-source decision to Confluence** - research done (AMR R package, GPL-2.0, CLSI/EUCAST), page never written #design @micro (from: AMR review workflow UX) (touched: 2026-06-12)
-- [ ] **Reconcile stranded design/micro-m10-m12-prototypes branch** - ledger says OPEN but no live PR, prototypes not on main #design @micro @gallery (from: Design folder cleanup + OpenELIS gallery) (touched: 2026-06-12)
 - [ ] **Spec post-MVP test-rules features** - MVP fully in Jira (OGC-730 + children 731–735); §10.1/§10.2 buckets have no FRS or mockup yet; run /specify on simulator+validation tests, multi-step calc, algorithm-as-graph (canvas preview exists), templates+conflict-detection before any new Jira #design #jira @catalog → handoffs/2026-05-29-test-rules-post-mvp-spec.md (from: Calculated values & reflex tests) (touched: 2026-05-29)
 - [ ] **Open PR for design/results-validation-v4 branch** - branch pushed (v3 retirement + print queue), PR never opened, not in PENDING-PRS ledger #design @results @gallery (from: OpenELIS gallery) (touched: 2026-06-12)
 - [ ] **Walk orphan-design review list (Register vs Archive)** - 26 unregistered files across 16 features triaged, each needs a keep-or-archive call #design @gallery (from: Design folder cleanup) (touched: 2026-06-12)
@@ -44,6 +43,8 @@
 - [ ] **Finish style-guide v2 patterns inventory** - content refreshed and PR'd, audit coverage table still incomplete #design @design-system (from: Design folder cleanup) (touched: 2026-06-12)
 
 ## Done
+
+- [x] **Reconcile stranded design/micro-m10-m12-prototypes branch** - resolved: both prototypes are live on main and byte-identical to the staged copies (m-10-hub-subscription-prototype.html sha 8fa8c3cb, m-12-test-reagent-linkage-prototype.html sha e30cc82e), landed via PR #158. PENDING-PRS ledger already marks #158 MERGED/verified. Branch can be deleted; nothing stranded. #design @micro @gallery (from: Design folder cleanup + OpenELIS gallery) (done: 2026-06-15)
 
 - [x] **Build Sync 6/7 PR from clean worktree** - already landed: all Sync 5/6 micro FRSes + prototypes are on main via PR #156 (design/micro-sync6-v2) and PR #157 (design/test-catalog-micro-workflow-attribute), both verified on main 2026-06-15. 5/7 staged FRSes byte-identical on main; m-00 + m-14 differ only because main carries newer drift-fix versions (larger files) that supersede the staged copies. Nothing left to push. #design @micro @gallery (from: AMR review workflow UX) (done: 2026-06-15)
 
