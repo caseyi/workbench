@@ -17,7 +17,6 @@
 - [ ] **Reconcile stranded design/micro-m10-m12-prototypes branch** - ledger says OPEN but no live PR, prototypes not on main #design @micro @gallery (from: Design folder cleanup + OpenELIS gallery) (touched: 2026-06-12)
 - [ ] **Spec post-MVP test-rules features** - MVP fully in Jira (OGC-730 + children 731–735); §10.1/§10.2 buckets have no FRS or mockup yet; run /specify on simulator+validation tests, multi-step calc, algorithm-as-graph (canvas preview exists), templates+conflict-detection before any new Jira #design #jira @catalog → handoffs/2026-05-29-test-rules-post-mvp-spec.md (from: Calculated values & reflex tests) (touched: 2026-05-29)
 - [ ] **Finish scheduling OGC-361 into ENV S2** - blocked on issue type flipping Sub-task → Story, then one-shot sprint+due-date edit #jira @vector @jira-admin (from: PNG work plan) (touched: 2026-06-12)
-- [ ] **Open/merge v2-mockups PR** - design/v2-mockups-uncertainty-and-trap-details pushed, PR never created; gallery permalinks live only after merge #design @vector @gallery (from: Vector & env mockups) (touched: 2026-06-12)
 - [ ] **Open PR for design/results-validation-v4 branch** - branch pushed (v3 retirement + print queue), PR never opened, not in PENDING-PRS ledger #design @results @gallery (from: OpenELIS gallery) (touched: 2026-06-12)
 - [ ] **Walk orphan-design review list (Register vs Archive)** - 26 unregistered files across 16 features triaged, each needs a keep-or-archive call #design @gallery (from: Design folder cleanup) (touched: 2026-06-12)
 - [ ] **Triage seven most-stale Jira tickets** - OGC-19/21/22/23/7/18 + OEDIGI-31 untouched 1+ year; keep vs close #jira @jira-admin (from: December features review) (touched: 2026-06-12)
@@ -49,3 +48,5 @@
 ## Done
 
 - [x] **Merge s06-v2-lhu-rewrite FRS PR** - already merged: PR #131 (head design/s06-v2-lhu-rewrite) merged to main 2026-05-26; v2.0 env+vector FRSes live, v1.0 archived #design @vector @gallery (from: Vector & env mockups) (done: 2026-06-15)
+
+- [x] **Open/merge v2-mockups PR** - already merged: PR #137 (head design/v2-mockups-uncertainty-and-trap-details, OGC-775 + OGC-777) merged to main 2026-05-28; branch fully merged, no commits missing from main #design @vector @gallery (from: Vector & env mockups) (done: 2026-06-15)
