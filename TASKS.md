@@ -52,6 +52,7 @@
 - [ ] **Herbert re: OGC-267 direction** - comment posted with 3 paths (refocus / close as superseded / continue selectively); ping him directly #jira @pathology (ref: Cytology / Bethesda dictionary — OGC-266) (from: Cytology revision) (since: 2026-06-12)
 - [ ] **Referral redesign feedback** - Confluence page created + Slack ping sent, no visible response; check thread and page #design @referrals (ref: Referral feature redesign) (from: Referral redesign) (since: 2026-06-12)
 - [ ] **Create Jira Fix Version "PNG / CPHL Phase II"** - doesn't exist in OGC project settings; needed for epic/story completion rollup #jira @jira-admin (ref: PNG / CPHL Phase II release) (from: Report print queue) (since: 2026-06-12)
+- [ ] **Madagascar wind-down: owner replies on disposition** - status-request comments posted 2026-06-24 (proper @mentions), awaiting confirm-then-close/relabel: OGC-647 (aliquot bug, Mozzy — confirmed NOT fixed, asked if the /Aliquot workaround closes it); OGC-332 & OGC-333 (inline NCE, herman; CC Reagan re possible supersession); OGC-556 (admin i18n, Mozzy — can it close?); OGC-773 (outbound dispatch proof, Piotr — did it land?; still labeled madagascar); OGC-61/571/572 moved to PNG (label madagascar→PNG), Mozzy asked for status. NEXT: as each replies, close / relabel / PNG-schedule accordingly; nudge if quiet. #jira @jira-admin @analyzer (ref: OGC Jira workflow & statuses overhaul — Madagascar wind-down) (from: Jira statuses) (since: 2026-06-24)
 
 ## Someday
 
@@ -66,3 +67,5 @@
 - [ ] **Finish style-guide v2 patterns inventory** - content refreshed and PR'd, audit coverage table still incomplete #design @design-system (ref: OpenELIS design system / style guide v2) (from: Design folder cleanup) (touched: 2026-06-12)
 
 ## Done
+
+- [x] **Madagascar wind-down triage** - reviewed all 16 OGC issues labeled madagascar & not Done. CLOSED as Won't Do (Done + closure note, no Won't-Do resolution exists in OGC): analyzers OGC-328/330/350/419/424; epic OGC-304 "Madagascar Analyzer Work" → Done; OGC-66 (patient ID scanning) → Done + queued for user-manual docs. MOVED TO PNG (label madagascar→PNG): OGC-61, OGC-571, OGC-572. Status-request comments posted on the rest (left active pending owner reply — see Waiting On). OGC-302 (e-sigs) skipped — Casey asked in Slack. MinION/MALDI already on PNG (excluded). #jira @jira-admin (ref: OGC Jira workflow & statuses overhaul — Madagascar wind-down) (from: Jira statuses) (touched: 2026-06-24)
