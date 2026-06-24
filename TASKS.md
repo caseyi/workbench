@@ -7,6 +7,7 @@
      Waiting On uses (since: DATE). Items grouped by area within each section. -->
 
 ## Inbox
+- [ ] **UAT->user-manual handoff ready** - template + backlog + pipeline to build user-manual pages from verified UAT steps; next: UAT thread fills a per-feature block, then run openelis-user-manual per feature (capture serialized on the Mac). -> handoffs/uat-to-user-manual-handoff.md #design @gallery (from: docs-system thread) (ref: OpenELIS docs system) (touched: 2026-06-24)
 
 - [ ] **Triage the 9 newly-scanned Inbox items + decide the 6 unmerged PRs** - Friday-scan added 9 hanging items below; route each to Active/Waiting/Someday. Six are pushed-but-unopened PR branches (m-bundle-microbiology, analyzer-profile-mapping, biorad-cfx-opus-v1.2, analyzer-mapping-spec-round2, consolidation-2026-06, programs-management) — decide batch-open via Mac git/gh vs review first #openelis @workbench @gallery (ref: Workbench setup) → handoffs/2026-06-18-workbench-system-build.md (from: Workbench setup) (touched: 2026-06-18)
 - [ ] **Re-save & validate the workbench skill** - installed workbench skill may predate the ref/Friday-sweep/hanging-op edits; re-save outputs/workbench-skill.skill via Settings > Capabilities, optionally run the skill-creator eval loop to check triggering, then retire the duplicate "Workbench" section in openelis-work/CLAUDE.md once trusted #openelis @workbench (ref: Workbench skill) → handoffs/2026-06-18-workbench-system-build.md (from: Workbench setup) (touched: 2026-06-18)
